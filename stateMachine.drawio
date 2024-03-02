@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2024-03-02T04:50:06.264Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="yU-Tl90ZjzaB0iS5b4Gy" version="24.0.0" type="github">
+  <diagram name="第 1 页" id="jQyt6PN3O-9ILQwhtGz-">
+    <mxGraphModel dx="1207" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-2" value="IStateMachine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="646.25" width="140" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-6" value="TriggerBehaviour" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="646.25" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="730" y="750" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-5" value="StateRegistry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jAPCvnGw42VJ1_7bwacQ-9">
+          <mxGeometry width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-8" value="存储与状态的所有有关的信息&lt;div&gt;1.state&lt;/div&gt;&lt;div&gt;2.triggerBehaviors&lt;/div&gt;&lt;div&gt;3.entry/exitActions&lt;/div&gt;&lt;div&gt;4.substates&lt;/div&gt;&lt;div&gt;5.initalState&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jAPCvnGw42VJ1_7bwacQ-9">
+          <mxGeometry y="60" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="730" y="560" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-4" value="MachineRegistry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jAPCvnGw42VJ1_7bwacQ-12">
+          <mxGeometry width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-10" value="状态机的仓库类，用于存储状态机的实际配置&lt;div&gt;1.containedStates：本状态机所有StateRegistry&lt;/div&gt;&lt;div&gt;2.triggerConfiguration：状态机可接受的trigger&lt;/div&gt;&lt;div&gt;3.initalState: 初始状态&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jAPCvnGw42VJ1_7bwacQ-12">
+          <mxGeometry y="60" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="730" y="930" width="210" height="93.75" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-13" value="MachineConfigurer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jAPCvnGw42VJ1_7bwacQ-15">
+          <mxGeometry width="200" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-14" value="状态机工厂类，设置状态机配置的入口" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jAPCvnGw42VJ1_7bwacQ-15">
+          <mxGeometry y="63.75" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="540" y="560" width="145" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-3" value="IStateMachineStatus" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jAPCvnGw42VJ1_7bwacQ-18">
+          <mxGeometry x="2.5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-17" value="状态信息" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jAPCvnGw42VJ1_7bwacQ-18">
+          <mxGeometry y="65" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="510" y="720" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-11" value="IStateMachineContext" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jAPCvnGw42VJ1_7bwacQ-19">
+          <mxGeometry width="190" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="jAPCvnGw42VJ1_7bwacQ-16" value="用来存储状态机的上下文信息" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jAPCvnGw42VJ1_7bwacQ-19">
+          <mxGeometry y="80" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
