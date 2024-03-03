@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-03T11:40:12.267Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5K1Olwi6Z51BBtb7iNem" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-03T14:23:13.348Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="aPW2PDu4nitZwOl1MrE1" version="24.0.0" type="github">
   <diagram name="第 1 页" id="jQyt6PN3O-9ILQwhtGz-">
     <mxGraphModel dx="1207" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,8 +61,11 @@
         <mxCell id="BBn1zPqoFVNGkyh3_7BI-1" value="定义触发器行为" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BBn1zPqoFVNGkyh3_7BI-2">
           <mxGeometry y="60" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BBn1zPqoFVNGkyh3_7BI-3" value="配置规则：&lt;div&gt;1.状态机需要指定初始状态&lt;/div&gt;&lt;div&gt;2.如果未指定状态，会以第一个配置状态的叶状态为默认初始状态&lt;/div&gt;&lt;div&gt;3.多个触发器配置在parent/child状态下，优先出发子&lt;/div&gt;&lt;div&gt;4.同一个状态上注册同一个触发器，指向不同的目标状态，以第一个注册的为准&lt;/div&gt;&lt;div&gt;5.同一个状态中&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="810" y="560" width="310" height="310" as="geometry" />
+        <mxCell id="BBn1zPqoFVNGkyh3_7BI-3" value="配置规则：&lt;div&gt;1.状态机需要指定初始状态&lt;/div&gt;&lt;div&gt;2.如果未指定状态，会以第一个配置状态的叶状态为默认初始状态&lt;/div&gt;&lt;div&gt;3.多个触发器配置在parent/child状态下，优先出发子&lt;/div&gt;&lt;div&gt;4.同一个状态上注册同一个触发器，指向不同的目标状态，以第一个注册的为准&lt;/div&gt;&lt;div&gt;5.父/子拥有同一个触发器，可通过添加guard，控制状态转换&lt;/div&gt;&lt;div&gt;6.状态流转时，如果未能通过guard，状态不变&lt;/div&gt;&lt;div&gt;7.子状态继承父状态的触发器，&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="560" width="310" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="BBn1zPqoFVNGkyh3_7BI-4" value="permit&lt;div&gt;permitIf&lt;/div&gt;&lt;div&gt;permitDynamic&lt;/div&gt;&lt;div&gt;permitReentry&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="900" width="270" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
