@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T00:36:49.011Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="p3-m_1MOmt4StOSoFzu2" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T15:27:06.629Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="UDL6V_lAYUYZoCVQdh6H" version="24.1.0" type="github">
   <diagram name="第 1 页" id="jQyt6PN3O-9ILQwhtGz-">
-    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1080" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="jAPCvnGw42VJ1_7bwacQ-2" value="IStateMachine" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="646.25" width="140" height="63.75" as="geometry" />
+          <mxGeometry x="360" y="470" width="140" height="63.75" as="geometry" />
         </mxCell>
         <mxCell id="jAPCvnGw42VJ1_7bwacQ-6" value="TriggerBehaviour" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="646.25" width="140" height="60" as="geometry" />
@@ -46,7 +46,7 @@
         <mxCell id="jAPCvnGw42VJ1_7bwacQ-16" value="用来存储状态机的上下文信息" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="jAPCvnGw42VJ1_7bwacQ-19" vertex="1">
           <mxGeometry y="80" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tJJkoYzi07KieC5yM62E-1" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="tJJkoYzi07KieC5yM62E-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="510" y="930" width="210" height="170" as="geometry" />
         </mxCell>
         <mxCell id="jAPCvnGw42VJ1_7bwacQ-5" value="StateRegistry" style="rounded=1;whiteSpace=wrap;html=1;" parent="tJJkoYzi07KieC5yM62E-1" vertex="1">
@@ -55,13 +55,13 @@
         <mxCell id="jAPCvnGw42VJ1_7bwacQ-8" value="存储与状态的所有有关的信息&lt;div&gt;1.state&lt;/div&gt;&lt;div&gt;2.triggerBehaviors&lt;/div&gt;&lt;div&gt;3.entry/exitActions&lt;/div&gt;&lt;div&gt;4.substates&lt;/div&gt;&lt;div&gt;5.initalState&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="tJJkoYzi07KieC5yM62E-1" vertex="1">
           <mxGeometry y="60" width="210" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="tJJkoYzi07KieC5yM62E-2" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="tJJkoYzi07KieC5yM62E-2" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="750" y="930" width="210" height="93.75" as="geometry" />
         </mxCell>
-        <mxCell id="tJJkoYzi07KieC5yM62E-3" value="stateCOnfigurer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tJJkoYzi07KieC5yM62E-2">
+        <mxCell id="tJJkoYzi07KieC5yM62E-3" value="stateCOnfigurer" style="rounded=1;whiteSpace=wrap;html=1;" parent="tJJkoYzi07KieC5yM62E-2" vertex="1">
           <mxGeometry width="200" height="63.75" as="geometry" />
         </mxCell>
-        <mxCell id="tJJkoYzi07KieC5yM62E-4" value="state工厂类，设置state配置的入口" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tJJkoYzi07KieC5yM62E-2">
+        <mxCell id="tJJkoYzi07KieC5yM62E-4" value="state工厂类，设置state配置的入口" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="tJJkoYzi07KieC5yM62E-2" vertex="1">
           <mxGeometry y="63.75" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
